@@ -1,7 +1,9 @@
 # FrameBuffer Drawing
 
-A small graphics library with direct interacting with the linux framebuffer (`/dev/fbx`)
+A small graphics library with direct interacting with the Linux framebuffer (`/dev/fbx`)
 Temporarily uses `Pillow` to be able to save framebuffer contains.
+
+Works only on Linux, obviously.
 
 Might have memory leaks as a bonus!
 
@@ -28,11 +30,7 @@ Might have memory leaks as a bonus!
    ```bash
    python -m venv venv
 
-   # Linux
    source venv/bin/activate
-   
-   # ew windows
-   .\venv\Scripts\activate
    ```
 
 3. Install the required Python libraries:
